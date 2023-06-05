@@ -1,0 +1,38 @@
+{
+    "name": "nicholasmt/zoom_webhook",
+    "description": "a laravel package for zoom webhook end point verification and validation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicholas Tochukwu",
+            "email": "nicholasmt09@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/Nicholasmt/zoom_webhook_library"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    
+    "autoload": {
+        "psr-4": {
+            "Nicholasmt\\ZoomWebhook\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Nicholasmt\\ZoomWebhook\\Providers\\ZoomWebhookProvider"
+            ],
+            "aliases":{
+              "ZoomWebhook":"Nicholasmt\\ZoomWebhook\\ZoomWebhook"
+            }
+        }
+    }
+}
