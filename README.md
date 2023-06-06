@@ -19,23 +19,23 @@ Your requirements could not be resolved to an installable set of packages.
 
 To Resolve simply run
  
-```
+```console
  composer update
  
  ```
 
 After successfull composer update then install the package again with 
-``` composer require nicholasmt/zoom_webhook ```
+```console composer require nicholasmt/zoom_webhook ```
 
 Note: if you encounter any error based on poor network during update, 
 
 just backup the vender file, delete and run composer update again with 
-``` composer update ```
+```console composer update ```
 
 
 Configure .env file with below
 
-```
+```console
 ZOOM_SECRET_TOKEN="your zoom secret token"
 
 ```
