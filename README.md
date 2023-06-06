@@ -9,7 +9,7 @@ composer require nicholasmt/zoom_webhook
 
 ```
 
-Note: if You encounter this or any other error which means you are using the old version of that package
+Note: if You encounter this or any other error which means you are using the old version of those packages
 
 ```console
 
@@ -27,7 +27,7 @@ To Resolve simply run
 After successfull composer update then install the package again with 
 ``` composer require nicholasmt/zoom_webhook ```
 
-Note: if you encounter any error based on poor network on updating composer, 
+Note: if you encounter any error based on poor network during update, 
 
 just backup the vender file, delete and run composer update again with 
 ``` composer update ```
