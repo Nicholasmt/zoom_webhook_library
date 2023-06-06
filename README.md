@@ -111,17 +111,17 @@ class ZoomWebhookController
 }
 
 ```
-Then after successful validation you will recevie zoom events here
+Then after successful validation you will receive zoom events here
 
 ```php
- $verify_request_header = Zoomwebhook::VerifyHeader(); 
+        $verify_request_header = Zoomwebhook::VerifyHeader(); 
         if($verify_request_header)
         {
-          // trap  zoom events here
+          // trap zoom events here
         }
 
 ```
-Use NGROK for testing  <a href="https://ngrok.com"> Here </a>, Check out there Docs on how to use.
+Use NGROK for testing  <a href="https://ngrok.com"> Here </a>, Check out ngrok Docs on how to use.
 
 
 
