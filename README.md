@@ -1,6 +1,6 @@
 # <img src="https://st2.zoom.us/static/6.3.12613/image/new/topNav/Zoom_logo.svg">
 
-# Laravel Package Library to verify and validate zoom endpoint webhook url
+# Laravel Package Library to verify and validate zoom webhook endpoint url
  
 # To get started Run
 
